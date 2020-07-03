@@ -17,7 +17,7 @@ import tw.jason.demo.User;
 public class UserDAO {
 	private static final String jdbcURL = "jdbc:mysql://localhost:3306/demo?useSSL=false";
 	private static final String jdbcUsername = "root";
-	private static final String jdbcPwd = "reborn20519";
+	private static final String jdbcPwd = "##################";
 	private static final String INSERT_USERS = "insert into users" + " (name, email, address) VALUES " + "(?, ?, ?);";
 	private static final String SELECT_USER_BY_ID = "select * from users where id = ?;";
 	private static final String SELECT_ALL_USERS = "select * from users;";
